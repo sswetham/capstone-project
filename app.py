@@ -21,7 +21,7 @@ with col2:
     satisfaction_level = st.slider("Satisfaction level ", min_value = 0.0, max_value = 1.0, step = 0.01, value = 0.7)
     
 with col3:
-    average_monthly_hours = st.slider("Average Monthly Hours ", min_value = 120, max_value = 310, step = 1, value = 6)
+    average_monthly_hours = st.slider("Average Monthly Hours ", min_value = 120, max_value = 310, step = 1, value = 160)
      
 X = [years_at_company, satisfaction_level, average_monthly_hours]
 
@@ -51,4 +51,5 @@ if predict_button:
  
 else:
     st.info(" Enter the details and press the *Predict Salary* button")    
+
 
