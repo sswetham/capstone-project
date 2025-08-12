@@ -8,7 +8,7 @@ st.set_page_config(page_title = "Salary Satisfaction App", layout = "wide")
 st.title(" Salary Estimation App ")
 st.markdown("#### Predict your expected salary based on company experience!")
 
-st.image(r'C:\Users\tarun\Downloads\CapStone Project\2024-05-24_Doge_meme_death_-_Hero.jpg', caption = "Let's Predict", use_container_width=True)
+st.image(r'https://github.com/sswetham/capstone-project/blob/main/2024-05-24_Doge_meme_death_-_Hero.jpg', caption = "Let's Predict", use_container_width=True)
 
 st.divider()
 
@@ -51,3 +51,4 @@ if predict_button:
  
 else:
     st.info(" Enter the details and press the *Predict Salary* button")    
+
